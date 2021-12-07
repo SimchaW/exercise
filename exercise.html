@@ -9,27 +9,27 @@
         <div class="style2">
             <div class="style3">
             <div>
-                <h1 class="style4">Register</h1>
+                <h1 id="id" class="style4">Register</h1>
                 <span class="style5">Already have an account?</span>
                 <a href="*" class="style6">Login</a>
             </div>
 
             <div class="style7">
-                <label class="labelstyle">Name*</label>
+                <label id="temp1" class="labelstyle">Name*</label>
                 <input type="text" id ="name" class="inputstyle">
                 <br>
-                <label class="labelstyle">Email*</label>
+                <label id="temp2" class="labelstyle">Email*</label>
                 <input type="text" id ="email" class="inputstyle">
                 <br>
-                <label class="labelstyle">Password*</label>
+                <label id="temp3" class="labelstyle">Password*</label>
                 <input type="password" id="pwd" class="inputstyle">
                 <br>
-                <label class="labelstyle">Validate password*</label>
+                <label id="temp4" class="labelstyle">Validate password*</label>
                 <input type="password" id="vpwd" class="inputstyle">
             </div>
 
             <div class="style8">
-                <button class="style9">REGISTER</button>
+                <button class="style9" onclick = "getInfo()">REGISTER</button>
                 <a href="*" class="style10">Forgor your password?</a>
                 </div>
     
@@ -39,6 +39,8 @@
             </div>
     </div>
 </div>
+
+<script src="exercise.js"></script>
     
 </body>
 </html>
